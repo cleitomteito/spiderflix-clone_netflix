@@ -24,7 +24,7 @@ header .container{
 
 header .logo{
     margin-top: 10px;
-    width: 10%;
+    width: 128px;
 }
 
 header nav a{
@@ -40,7 +40,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-spider_man.jpg');
+    background: url('/img/capa-spider_man.jpg');
 
     height: 400px;
     background-size: cover;
@@ -53,7 +53,7 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .filme-principal .titulo{
@@ -116,11 +116,15 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 50%;
+    width: 70%;
 }
 
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
