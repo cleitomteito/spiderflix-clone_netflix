@@ -49,8 +49,35 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.titulo{
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
     margin-top: 5%;
     width: 40%;
     margin-bottom: 2%;
+}
+
+.botao{
+    background-color: rgba(5,13,58,0.5);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-family: 12px;
+
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: rgba(5,13,58);
+    transition: 3s;
+}
+
+.botao i{
+    margin-right: 8px;
 }
